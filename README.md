@@ -16,6 +16,9 @@ output:
 The all() function returns True if all items in an iterable are true, otherwise it returns False. If the iterable object is empty, the all() function also returns True.
 
 def flush(hand):
+
     "Return True if all the cards have the same suit."
+    
     suit = [s for r,s in hand]
+    
     return all(s == suit[0] for s in suit) # check if each element in the list is equal to the first element
