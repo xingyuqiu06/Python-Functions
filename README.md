@@ -22,3 +22,15 @@ def flush(hand):
     suit = [s for r,s in hand]
     
     return all(s == suit[0] for s in suit) # check if each element in the list is equal to the first element
+    
+# zip()
+
+to loop through two list in one loop
+
+names = ['Peter Parker', 'Clark Kent']
+
+heros = ['Spiderman', 'Superman']
+
+for name, hero in zip(names, heros):
+    
+    print(f'{name} is actually {hero}')
