@@ -25,7 +25,7 @@ def flush(hand):
     
 # zip()
 
-to loop through two list in one loop
+to loop through two or more lists in one loop
 
 names = ['Peter Parker', 'Clark Kent']
 
